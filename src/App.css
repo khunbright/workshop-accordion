@@ -1,0 +1,44 @@
+main{
+  display: flex;
+  min-height: 100hv;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width: 90vw;
+  margin: 10rem auto;
+  background:#fff;
+  border-radius: 0.5rem;
+  padding: 2rem 2rem;
+  max-width: 1000px;
+}
+
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  background: #eae6eb;
+  border: transparent;
+  border-radius: 50%;
+  color: blue;
+  cursor: pointer;
+  margin-left: 1rem;
+  align-self: center;
+  min-width: 2rem;
+}
+
+.content{
+  padding: 1rem 1.5rem;
+  border: 2px solid #eae6eb;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 10px rgba(0,0,0, 0.1);
+}
+
+.container header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
